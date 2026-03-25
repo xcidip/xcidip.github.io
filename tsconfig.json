@@ -16,7 +16,7 @@
     "jsx": "react-jsx",
 
     // Svelte
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
     "strictBindCallApply": true,

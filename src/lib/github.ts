@@ -21,6 +21,8 @@ interface GitHubRepo {
 	language: string | null;
 	topics: string[];
 	updated_at: string;
+	fork: boolean;
+	private: boolean;
 }
 
 const GITHUB_API_BASE = 'https://api.github.com';
@@ -34,8 +36,9 @@ export async function fetchUserRepositories(username: string): Promise<Repositor
 		};
 
 		// Add token if available from environment
-		if (import.meta.env.VITE_GITHUB_TOKEN) {
-			headers['Authorization'] = `token ${import.meta.env.VITE_GITHUB_TOKEN}`;
+		const token = (import.meta as any).env.VITE_GITHUB_TOKEN;
+		if (token) {
+			headers['Authorization'] = `token ${token}`;
 		}
 
 		const response = await fetch(url, { headers });

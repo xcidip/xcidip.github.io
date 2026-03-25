@@ -8,7 +8,7 @@
 
 	onMount(() => {
 		darkMode.init();
-		const unsubscribe = darkMode.subscribe((value) => {
+		const unsubscribe = darkMode.subscribe((value: boolean) => {
 			isDark = value;
 		});
 		return unsubscribe;
