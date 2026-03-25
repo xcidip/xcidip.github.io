@@ -25,7 +25,7 @@
 				<div class="w-10 h-10 bg-gradient-to-br from-indigo-600 to-emerald-600 rounded-lg flex items-center justify-center">
 					<span class="text-white font-bold text-lg">✦</span>
 				</div>
-				<span class="font-display text-xl font-bold hidden sm:inline text-slate-900 dark:text-white">RAF</span>
+				<span class="font-display text-xl font-bold hidden sm:inline text-slate-900 dark:text-white">Rafael</span>
 			</a>
 
 			<!-- Desktop Navigation -->

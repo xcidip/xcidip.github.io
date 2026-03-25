@@ -8,7 +8,7 @@
 					<div class="w-10 h-10 bg-gradient-to-br from-indigo-600 to-emerald-600 rounded-lg flex items-center justify-center">
 						<span class="text-white font-bold">✦</span>
 					</div>
-					<span class="font-display text-lg font-bold text-white">RAF</span>
+					<span class="font-display text-lg font-bold text-white">Rafael</span>
 				</a>
 				<p class="text-slate-400 text-sm">
 					Crafting beautiful and functional digital experiences through clean code and thoughtful design.
